@@ -4,7 +4,9 @@ public class Main {
         byte clientOS = 1;
         if (clientOS == 0) {
             System.out.println("Установите версию приложения для iOS по ссылке");
-        } else System.out.println("Установите версию приложения для Android по ссылке");
+        } else {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        }
         // Задание 2
         int clientDeviceYear = 2014;
         if (clientOS == 0 && clientDeviceYear >= 2015) {
@@ -13,7 +15,9 @@ public class Main {
             System.out.println("Установите версию приложения для Android по ссылке");
         } else if (clientOS == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите версию приложения для iOS по ссылке. Установите облегченную версию приложения для iOS по ссылке");
-        } else System.out.println("Установите версию приложения для Android по ссылке. Установите облегченную версию приложения для Android по ссылке");
+        } else {
+            System.out.println("Установите версию приложения для Android по ссылке. Установите облегченную версию приложения для Android по ссылке");
+        }
         // Задание 3
         int year = 400;
         boolean leapУear = year % 4 == 0;
@@ -21,7 +25,9 @@ public class Main {
             System.out.println(year + " год является високосным");
         } else if (year % 400 == 0) {
             System.out.println(year + " год является високосным");
-        } else System.out.println(year + " год не является високосным");
+        } else {
+            System.out.println(year + " год не является високосным");
+        }
         // Задание 4
         int deliveryDistance = 95;
         int needDays = 1;
@@ -35,7 +41,9 @@ public class Main {
             System.out.println("Потребуется дней: " + needDays);
         } else if (deliveryDistance > 100) {
             System.out.println("Мы не сможем доставить Вам карту");
-        } else System.out.println("Некорректное значение");
+        } else {
+            System.out.println("Некорректное значение");
+        }
         // Задание 5
         int month = 12;
         switch (month) {
